@@ -54,7 +54,7 @@ const Contact = () => {
             </div>
             <div className="copyright">
                 <p>
-                    <span className="otter">🦦 </span> Mizuho Tohma 2022
+                    <span className="otter">🦦 </span> Mizuho Tohma 2023
                     <span className="otter"> 🦦</span>
                 </p>
             </div>

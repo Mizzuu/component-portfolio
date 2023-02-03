@@ -1,0 +1,12 @@
+.skill {
+    background: #A1C6D7;
+    font-weight: 700;
+
+    ul {
+      display: grid;
+      grid-template-columns: auto auto ;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
