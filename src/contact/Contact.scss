@@ -1,0 +1,46 @@
+.footer {
+    background: #343434;
+    color: #F7FFF7;
+  .content-wrap{
+    padding-bottom: 30px;
+    .contact-list {
+      list-style-type: none;
+      padding: 0;
+      display:flex;
+      flex-direction: column;
+      li {
+        padding: 5px;
+        .icon {
+          font-size: 50px;
+        }
+      }
+      .phone {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .copyright {
+    border-top: 1px dashed #F7FFF7;
+    color: #F7FFF7;
+    padding: 15px;
+    text-align: center;
+    p{
+      margin: 0;
+      font-family: 'Caveat', cursive;
+      font-size: 20px;
+      .otter {
+        position: relative;
+        animation-name: otter;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes otter {
+        0%   { left:0px; top:0px; }
+        25%   { left:-2px; top:-5px; }
+        50%  { left:2px; top:5px; }
+        75%   { left:4px; top:-5px; }
+        100% { left:0px; top:0px;}
+      }
+    }
+  }
+  }
